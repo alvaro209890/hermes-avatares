@@ -1,36 +1,27 @@
-# Hermes — Avatares de bots, agentes e servidores
+# Hermes Avatares
 
-Pacote de avatares quadrados em estilo anime mecha moderno, com estética cyberpunk discreta, fundo escuro e monogramas próprios para ícones pequenos de Discord.
+Avatares anime/cyberpunk da frota Hermes — um por bot e por agente.
 
-## Bots e agentes
+## Bots (perfis default de cada PC)
+| Arquivo | Bot | PC |
+|---|---|---|
+| `bot-acer.png` | Hermes Acer | notebook acer |
+| `bot-hub.png` | Hermes Hub | server-desktop |
+| `bot-windows.png` | Hermes Windows | pcque001imap (Windows) |
 
-| Arquivo | Identidade |
-|---|---|
-| `bot-acer.png` | Hermes Acer — orquestrador do notebook Acer; mensageiro alado moderno; monograma HA |
-| `bot-hub.png` | Hermes Hub — orquestrador do servidor de produção 24/7; monograma HO |
-| `bot-windows.png` | Hermes Windows — orquestrador do PC Windows da IMAP; monograma HW |
-| `acer-trello.png` | Tlìo do quadro SIMCAR — gestor do quadro de tarefas; cartão/clipboard; monograma T |
-| `acer-acompanhamento.png` | Acompanhamento de processos no Acer; pasta e documentos; monograma A |
-| `acer-geoforest.png` | Laudos geoflorestais no Acer; árvore, mapa e satélite; monograma GF |
-| `acer-solicitacoes.png` | E-mail e ofícios no Acer; envelope; monograma S |
-| `hub-geoforest.png` | GeoForest em produção — backend; satélite e servidor; monograma GF |
-| `hub-acompanhamento.png` | Acompanhamento de processos no servidor; pasta; monograma A |
-| `hub-wms.png` | GeoServer/WMS — camadas de mapa em pilha; monograma WMS |
-| `win-cartografo.png` | Cartografia/ArcGIS; bússola e mapa; monograma C |
-| `win-documentos.png` | Documentos e APF Rural; papel e certificado; monograma D |
-| `win-zelador.png` | Manutenção e limpeza da máquina; vassoura e engrenagem; monograma Z |
-| `win-hermes-windows.png` | Variante nominal de Hermes Windows; mesmo agente de `bot-windows.png`; monograma HW |
+## Agentes
+| Arquivo | Agente | Onde |
+|---|---|---|
+| `acer-trello.png` | Trello SIMCAR | acer |
+| `acer-acompanhamento.png` | Acompanhamento de processos | acer |
+| `acer-geoforest.png` | GeoForest-IA (laudos) | acer |
+| `acer-solicitacoes.png` | Solicitações (e-mail/ofiícios) | acer |
+| `hub-geoforest.png` | GeoForest backend | server |
+| `hub-acompanhamento.png` | Acompanhamento (servidor) | server |
+| `hub-wms.png` | GeoServer / WMS | server |
+| `win-cartografo.png` | Cartografia / ArcGIS | windows |
+| `win-documentos.png` | Documentos e APF Rural | windows |
+| `win-zelador.png` | Zelador (manutenção) | windows |
+| `win-hermes-windows.png` | Orquestrador do Windows (alt) | windows |
 
-## Avatares dos servidores
-
-| Arquivo | Servidor |
-|---|---|
-| `server-acer.png` | Ambiente/servidor Acer; insignia ACER |
-| `server-hub.png` | Hub de produção 24/7; insignia HUB |
-| `server-windows.png` | Ambiente do PC Windows; insignia WIN |
-
-## Observação sobre a contagem
-
-O conjunto principal contém **14 avatares de bots/agentes**. Como solicitado posteriormente, foram adicionados também **3 avatares de servidores**, totalizando **17 arquivos PNG**. A variante `win-hermes-windows.png` é mantida por compatibilidade com o nome alternativo do catálogo, embora represente o mesmo agente de `bot-windows.png`.
-
-Todos os arquivos PNG foram padronizados para **1024 × 1024 pixels** e estão na raiz do ZIP, sem subpastas.
+Todos gerados em 1024×1024 via Google Gemini (gemini-2.5-flash-image) através da OpenRouter.
